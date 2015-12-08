@@ -1,6 +1,6 @@
 library(tools)
 
-setwd("data")
+setwd("diabetis_data/")
 result = data.frame(id = character(0), slope = numeric(0))
 
 for(file.src in dir(pattern = "*.rc4")) {
